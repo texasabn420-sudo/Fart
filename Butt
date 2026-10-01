@@ -1186,7 +1186,7 @@ local function handlePickup(part)
             root.CFrame = originalPosition
         end
     end
-end)
+end
 
 local function isMoneyPart(target)
     if not target or not target:IsA("BasePart") then return false end
